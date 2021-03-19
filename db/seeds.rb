@@ -18,3 +18,10 @@ memoir = Category.create(name: "Memoir")
 educational = Category.create(name: "Educational")
 motivational = Category.create(name: "Motivational")
 children = Category.create(name: "Children's")
+
+Book.create(title: "The Hunger Games (Book 1)", 
+    author: "Suzanne Collins", 
+    description: "The first book in the Hunger Game series. Hardcover, First Edition. It's in pretty good condition.", 
+    image_url: "https://images-na.ssl-images-amazon.com/images/I/61JfGcL2ljL.jpg", 
+    price: 3.00, seller_info: "Call 555-555-55xx", 
+    category_id: fantasy.id)
