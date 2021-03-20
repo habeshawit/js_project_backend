@@ -2,7 +2,11 @@ class Api::V1::BooksController < ApplicationController
 
     def index
         books = Book.all
-        render json: books
+        # options = {
+        #     include: [:category]
+        # }
+        # render json: books
+        render json: BookSerializer.new(books)
     end
 
     def create
