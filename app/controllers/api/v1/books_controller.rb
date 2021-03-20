@@ -12,7 +12,7 @@ class Api::V1::BooksController < ApplicationController
     def create
         book = Book.new(book_params)
         if book.save
-            render json: book, status: :accepted
+            render json: BookSerializer.new(book), status: :accepted
         else
             render json: {errors: book.errors.full_message}, status: :unprocessible_entity
         end
@@ -21,7 +21,7 @@ class Api::V1::BooksController < ApplicationController
     private
 
     def book_params
-        params.require(:book).permit(:title, :author, :description, :image_url, :price, :seller_info, :category_id)
+        params.require(:book).permit(:ttle, :author, :description, :image_url, :price, :seller_info, :category_id)
     end
 
 end
