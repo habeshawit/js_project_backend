@@ -1,6 +1,6 @@
 # My Devotional App
 
-This app is a single page application that uses html, css, and javascript for the frontend and a Rails backend API. This is the backend API. The front end can be forked and cloned from https://github.com/habeshawit/js_project_frontend
+This app is a single page application where users can save their daily bible devotion and reflection on scripture read. It uses html, css, and javascript for the frontend and a Rails backend API. This is the backend API. The front end can be forked and cloned from https://github.com/habeshawit/js_project_frontend
 
 ## Instructions
 To use this app, just clone this repo as well as the frontend repo. The front end can be forked and cloned from https://github.com/habeshawit/js_project_frontend
