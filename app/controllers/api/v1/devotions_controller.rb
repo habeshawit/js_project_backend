@@ -8,11 +8,9 @@ class Api::V1::DevotionsController < ApplicationController
     def create
         devotion = Devotion.new(devotion_params)
         
-        if devotion.save
-            
+        if devotion.save           
             render json: DevotionSerializer.new(devotion), status: :accepted
         else
-            byebug
             render json: {errors: devotion.errors.full_message}, status: :unprocessable_entity
         end
     end
@@ -28,7 +26,6 @@ class Api::V1::DevotionsController < ApplicationController
     end 
 
     def update
-        # byebug
         devotion = Devotion.find_by_id(params[:id])
         devotion.title = params[:title]
         devotion.date = params[:date]
@@ -36,13 +33,10 @@ class Api::V1::DevotionsController < ApplicationController
         devotion.content = params[:content]
         devotion.image_url = params[:image_url]
         devotion.category_id = params[:category_id]
-        # byebug
-        # devotion.update(devotion_params)
+
         if devotion.save
-            # flash[:success] = 'Book was successfully updated.'
             render json: DevotionSerializer.new(devotion), status: :accepted
         else
-            # flash[:error] = 'Something went wrong.'
             render json: {errors: devotion.errors.full_message}, status: :unprocessable_entity
         end
     end
