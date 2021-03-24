@@ -1,24 +1,23 @@
-# README
+# My Devotional App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is a single page application that uses html, css, and javascript for the frontend and a Rails backend API. This is the backend API. The front end can be forked and cloned from https://github.com/habeshawit/js_project_frontend
 
-Things you may want to cover:
+## Instructions
+To use this app, just clone this repo as well as the frontend repo. The front end can be forked and cloned from https://github.com/habeshawit/js_project_frontend
 
-* Ruby version
+And then execute:
 
-* System dependencies
+$ bundle install
 
-* Configuration
+## Usage
+After cloning the repository and running bundle, follow the steps below:
+$ rake db:create && rake db:migrate
+$ rails s
+$ explorer.exe index.html
+$ Follow on-screen prompts
 
-* Database creation
+## Contributing
+Bug reports and pull requests are welcome on GitHub at https://github.com/habeshawit/js_project_backend.
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
