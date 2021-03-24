@@ -15,24 +15,23 @@ ActiveRecord::Schema.define(version: 2021_03_20_015140) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "books", force: :cascade do |t|
-    t.string "title"
-    t.string "author"
-    t.string "description"
-    t.string "image_url"
-    t.decimal "price"
-    t.string "seller_info"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.bigint "category_id", null: false
-    t.index ["category_id"], name: "index_books_on_category_id"
-  end
-
   create_table "categories", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  add_foreign_key "books", "categories"
+  create_table "devotions", force: :cascade do |t|
+    t.string "title"
+    t.string "date"
+    t.string "verse"
+    t.string "content"
+    t.string "image_url"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.bigint "category_id", null: false
+    t.index ["category_id"], name: "index_devotions_on_category_id"
+  end
+
+  add_foreign_key "devotions", "categories"
 end
