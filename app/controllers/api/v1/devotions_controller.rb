@@ -1,7 +1,7 @@
 class Api::V1::DevotionsController < ApplicationController
 
     def index
-        devotions = Devotion.all
+        devotions = Devotion.all.order('devotions.created_at DESC')
         render json: DevotionSerializer.new(devotions)
     end
 
@@ -38,6 +38,12 @@ class Api::V1::DevotionsController < ApplicationController
         else
             render json: {errors: devotion.errors.full_message}, status: :unprocessable_entity
         end
+    end
+
+    def destroy
+        devotion = Devotion.find(params[:id])
+        devotion.destroy
+        render json: {message: 'Successfully deleted' }
     end
 
     private
