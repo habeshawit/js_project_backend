@@ -12,8 +12,9 @@ $ bundle install
 ## Usage
 After cloning the repository and running bundle, follow the steps below:
 1. Run rake db:create && rake db:migrate
+2. Run rails db:seed
 2. Run  rails s
-3. Run explorer.exe index.html
+3. Run explorer.exe index.html (in frontend repo)
 4. Follow on-screen prompts
 
 ## Contributing

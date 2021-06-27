@@ -7,7 +7,6 @@ class Api::V1::DevotionsController < ApplicationController
 
     def create
         devotion = Devotion.new(devotion_params)
-        
         if devotion.save           
             render json: DevotionSerializer.new(devotion), status: :accepted
         else
