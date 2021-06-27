@@ -27,7 +27,6 @@ class Api::V1::DevotionsController < ApplicationController
     def update
         devotion = Devotion.find_by_id(params[:id])
         devotion.title = params[:title]
-        devotion.date = params[:date]
         devotion.verse = params[:verse]
         devotion.content = params[:content]
         devotion.image_url = params[:image_url]
@@ -49,8 +48,7 @@ class Api::V1::DevotionsController < ApplicationController
     private
 
     def devotion_params
-        # params.require(:devotion).permit(:id, :title, :date, :verse, :content, :image_url, :category_id)
-        params.require(:devotion).permit(:title, :date, :verse, :content, :image_url, :category_id) #, :category => {})
+        params.require(:devotion).permit(:title,  :verse, :content, :image_url, :category_id) #, :category => {})
     end
 
 end

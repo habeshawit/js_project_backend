@@ -26,7 +26,6 @@ struggle = Category.create(name: "Struggle")
 
 Devotion.create(
     title: "Living by Faith", 
-    date: "March 3, 2020", 
     content: "You are an ambassador for Christ! If you have made Jesus Christ the Lord of your life, you have been sent to act as a representative for Him in this world. Just as nations send ambassadors to represent their interests in other countries, youve been sent here to look after the interests of the kingdom of God. Think about that. Everywhere you go you are representing the King of kings and the Lord of lords. Thats a very high honor. It may also seem like a rather tall bill to fill. But God has equipped you to do it. Hes given you His Name and the power of His Word. Hes even put His very own Spirit inside you. And Hes given you the ability to hear and obey the directions of that Spirit. I heard a prophecy years ago that said there would come a time when men on the earth would walk and talk and act like God. Theyd be motivated by His power and His Spirit so strongly that people would say of them, Look at those believers. They think theyre God. No, the Holy Spirit said, they are not God. They are agents of God, children of God, ambassadors of God, sent to do the works of God. I believe were living in the day and hour that prophecy was talking about. Were seeing that army of light begin to grow. This is no time to be half-consecrated and half-dedicated. This is the time to go all the way with God, to give Him your whole life. If youll do that, Hell give you back such anointing and such power and such glory and goodness that youll shine for Him, as Philippians 2:15 says, as lights in the midst of a crooked and perverse generation. Begin to think about yourself today, not as just another ordinary man or woman but as an ambassador of Almighty God. Let the interests of His kingdom be foremost in your mind and heart. Submit yourself to Him and say, Lord, show me how to be Your representative in everything I do. You are an ambassador for Christ. Begin to live like it today.",
     verse: "2 Corinthians 5:10-21", 
     image_url: "https://st2.depositphotos.com/2914847/10918/i/950/depositphotos_109180642-stock-photo-inspirational-stones-faith.jpg", 
@@ -35,7 +34,6 @@ Devotion.create(
 
 Devotion.create(
     title: "True Righteousness", 
-    date: "Oct 5, 2020", 
     content: "Religion. No word builds walls faster. Although a majority of us would agree there is a reason for our existence…a Creator, there are so many different opinions and philosophies. A friend of mine once said to me, “We are all on to the same thing. You say, ‘God,’ I say, ‘Buddha,’ someone else says ‘Krishna.’ We just have different angles.” Although I do not agree, I can see his reasoning. All religions are about following a set of rules and rituals that will one day lead to a better life. At times, I compare religion with sports…one of my favorites: Soccer (or football depending on your corner of the world). There are many different types of fans. Some hate it and never watch a match, thus not being fans at all. Others watch half-heartedly in order to kill time, choosing to support whatever team looks stronger or has more fans. Others watch only so they can contribute to Friday night conversation with friends. And then there are the fanatics, who have their favorite team and will even go as far as to fist fight anyone who speaks ill of it. They don’t miss a step: they know what players are traded in and out, how much these players are making, years they joined the team, etc. Real hardcore fans. Religion has become pretty much the same...all about picking a team and being a committed (or not so committed) fan. Sometimes I start conversations with, “At church this Sunday…” and I get asked (usually with a raised eyebrow and guarded pose), “So…You’re religious?” When it comes to that word, I have to go back to the teachings of Jesus Christ. Many would be surprised that He never taught religion. In fact, we see Him criticizing the religion leaders of that age, the Pharisees. They went through the rituals: their speech, their attire, their overall conduct….all of it was highly subject to their religion. They prayed the prayers, did the fasts, kept the law and whatever else was required. But how did Jesus respond to them? He called them hypocrites and blind guides. He was never once impressed by their religiousness and so-called “righteousness.” Why? Because He knew where their hearts were… Following rules and regulation; having labels; going to the synagogue/place of worship; avoiding certain sins here and there, appearing good and upright before men, etc. They were all about religious practices. But where was God in it all….? Bigger question is: Are we at the same place? Emphatically proclaiming “Hallelujah!” and “Praise the Lord” in church on Sunday and insults, gossip, etc, other days of the week? Do we walk around with religious attire and a holier-than-thou attitude, while Christ teaches us to be humble? Are we following a religion and going through the rituals or do we truly believe in the God we profess to be Lord? Christ talked about how many will say to Him, “Lord, Lord..” but in reality their hearts are so far from God that He will say to them, “I never knew you.” (Matthew 7:23) For the past couple of weeks at the church I attend, the sermon has focused on examining oneself. Are we merely fans or true disciples of Jesus Christ? Does our faith bear fruit or are we merely fig trees with leaves having the appearance of fruit? In other words, does our proclaimed faith in God make any difference in the way we live or do we just pick a religion that suits us best and go through the rites and rituals to make ourselves feel better and merely because we are required to? ….Examining yourself is never an easy thing. If we use the Bible as a mirror (as in James 1:23-24), look into it and evaluate our daily actions and thoughts according to it, will we see someone who is being daily transformed to desire, seek and know God or will we, in fact, see a religious modern-day Pharisee? So, am I religious? I try not to be. It is my sincere prayer that we may all learn to be less “religious” and truly know, believe in, and live for the God we claim is Lord and King over our lives. God sees the heart that man does not and is neither fooled nor impressed by our outward actions to impress man. That is one lesson I've learnt in life.",
     verse: "Matthew 7, James 1", 
     image_url: "https://jewelsofjudaism.com/wp-content/uploads/2017/05/Pharisees-Sad-Res-Yeshua-in-Temple-web-720x372.jpg", 
@@ -44,7 +42,6 @@ Devotion.create(
 
 Devotion.create(
     title: "God's Love", 
-    date: "March 5, 2021", 
     content: "Today’s Verse
     “For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life. For God did not send his Son into the world to condemn the world, but to save the world through him.”
     
@@ -72,7 +69,6 @@ Devotion.create(
 
 Devotion.create(
     title: "More Than Conquerors", 
-    date: "March 18, 2021", 
     content: "Nay, in all these things we are more than conquerors through him that loved us.
 
     The Bible calls us kings and priests (Revelation 1:6) and world overcomers (1 John 5:4). But for most of us, those are just phrases. They haven't become real to us. That's why the devil's been able to hoodwink us into living lives of defeat. It hasn't actually dawned on us who we really are.
@@ -97,7 +93,6 @@ Devotion.create(
 )
 Devotion.create(
     title: "Amidst my lament...Amidst my joy", 
-    date: "Nov 5, 2020", 
     content: "'Great is Thy faithfulness.' Lamentations 3: 23
 
     A couple of years ago, I couldn’t imagine myself being at the place I am today, not in terms of geographical location (although that is a surprise to me as well) but more in terms of my take on life. Most things I would have rolled my eyes at or not considered the significance of, today I see their value. Things I obsessed over in the past, I now see as a bit silly. I guess I have a better understanding of what Paul meant when he said, “But whatever was for my profit, I now consider loss..” (Phillipians 3:7) I’m not sure when the “Aha!” moment was, but somewhere along the line, I must have opened my eyes to what is most significant in life.
@@ -118,7 +113,6 @@ Devotion.create(
 
 Devotion.create(
     title: "Time with God", 
-    date: "Feb 27, 2021", 
     content: "Spending time with God each day strengthens us spiritually as we read the Bible and pray. Regular Bible and prayer time helps center us on God’s purpose and reminds us that we aren’t alone. God’s Word gives us wisdom to make good choices, and time with Him helps keep us strong.
 
     We should spend time with God because we love Him. We all know that when you have a relationship with someone, it’s important to spend time with that person. Talking with them regularly helps grow and build closeness. In the same way, our relationship with God should be the most important one in our life and we should love our time spent in His presence.
@@ -152,7 +146,6 @@ Devotion.create(
 
 Devotion.create(
     title: "Love Your Neighbor", 
-    date: "December 14, 2020", 
     content: "'If you judge people, you have no time to love them.' ― Mother Teresa
 
     Love.  Probably the most abused, misused, and misunderstood word in the English vocabulary. 

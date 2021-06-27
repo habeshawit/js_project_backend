@@ -23,7 +23,6 @@ ActiveRecord::Schema.define(version: 2021_03_20_015140) do
 
   create_table "devotions", force: :cascade do |t|
     t.string "title"
-    t.string "date"
     t.string "verse"
     t.string "content"
     t.string "image_url"
