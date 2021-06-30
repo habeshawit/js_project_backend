@@ -29,10 +29,10 @@ module TradeItBackend
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
     #
-    config.time_zone = "Central Time (US & Canada)"
+    config.time_zone = "Eastern Time (US & Canada)"
+    config.active_record.time_zone_aware_attributes = false
 
     config.active_record.default_timezone = :local
-    config.active_record.time_zone_aware_attributes = false
     # config.eager_load_paths << Rails.root.join("extras")
 
     # Only loads a smaller set of middleware suitable for API only apps.
